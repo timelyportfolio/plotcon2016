@@ -25,10 +25,10 @@ noquote(
     lapply(
       imgs,
       function(img){
-        noquote(sprintf(
-          "![](./images/%s)",
+        sprintf(
+          "<img src='./images/%s' style = 'transform=rotate(90deg);'></img>",
           img
-        ))
+        )
       }
     ),
     collapse = "</br>"

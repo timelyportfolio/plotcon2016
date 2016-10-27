@@ -10,4 +10,4 @@ Ugly First Draft of Slides
 
 I like to start ugly.
 
-\[1\] ![](./images/slide_0001.jpg)</br>![](./images/slide_0002.jpg)</br>![](./images/slide_0003.jpg)</br>![](./images/slide_0004.jpg)</br>![](./images/slide_0005.jpg)</br>![](./images/slide_0006.jpg)</br>![](./images/slide_0007.jpg)</br>![](./images/slide_0008.jpg)</br>![](./images/slide_0009.jpg)
+\[1\] <img src='./images/slide_0001.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0002.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0003.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0004.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0005.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0006.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0007.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0008.jpg' style = 'transform=rotate(90deg);'></img></br><img src='./images/slide_0009.jpg' style = 'transform=rotate(90deg);'></img>
