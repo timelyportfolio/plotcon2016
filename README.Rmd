@@ -1,0 +1,37 @@
+---
+title: "Power of Combination | PlotCon 2016"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![PlotCon logo](https://plotcon.plot.ly/assets/images/plotcon_logo.png)
+
+I am so excited, delighted, and honored to be speaking at [PlotCon 2016](https://plotcon.plot.ly/).  This repo will serve as my open space for preparation, and as with all my repos, I welcome feedback, contributions, advice.  I am scheduled between Jenny Bryan and Hadley Wickham, so I need to really bring it.
+
+## Ugly First Draft of Slides
+
+I like to start ugly.
+
+
+```{r echo=FALSE, results='asis'}
+imgs <- list.files("./images")
+
+
+noquote(
+  paste0(
+    lapply(
+      imgs,
+      function(img){
+        noquote(sprintf(
+          "![](./images/%s)",
+          img
+        ))
+      }
+    ),
+    collapse = "</br>"
+  )
+)
+```
