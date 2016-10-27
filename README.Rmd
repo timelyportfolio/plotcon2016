@@ -26,12 +26,12 @@ noquote(
       imgs,
       function(img){
         sprintf(
-          "<img src='./images/%s' style = 'transform=rotate(90deg);'></img>",
+          "<img src='./images/%s'></img>",
           img
         )
       }
     ),
-    collapse = "</br>"
+    collapse = "<br/>\n"
   )
 )
 ```
