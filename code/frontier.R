@@ -52,7 +52,7 @@ frontierPoints(frontier) %>>%
     hoverinfo = "text"
   ) %>>%
   layout(
-    title = "Efficent Frontier"
+    title = "Efficient Frontier"
   )
 
 frontier@portfolio@portfolio$weights %>>%
@@ -111,13 +111,13 @@ rf %>%
       targetReturn * 100,
       targetRisk * 100
     ),
-    color = ~date, 
+    color = ~date,
     hoverinfo = "text",
     frame = ~date,
     showlegend = FALSE
   ) %>>%
   layout(
-    title = "<b>Efficent Frontier</b><br>Rolling 5 Year",
+    title = "<b>Efficient Frontier</b><br>Rolling 5 Year",
     margin = 100
   ) %>>%
   animation_opts( frame = 2000, transition = 1000 )
@@ -126,6 +126,6 @@ rf %>%
 upload_plotly <- function(p){
   Sys.setenv("plotly_username" = "timelyportfolio")
   Sys.setenv("plotly_api_key" = "3f9xw96gq0")
-  
+
   plotly_POST(p)
 }
